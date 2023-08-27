@@ -1,6 +1,6 @@
 # flask_api
 
-#i need help, the proprty data has refusd to load onto post manusing GET. i have tried all possible means but its not uplading. below is the flask pi code and ps_utility coe nd as well as th json file containig th loctions i wan to lod up ostman. 
+#i need help, the proprty data has refusd to load onto postman using GET. i have tried all possible means but its not uploading. below is the flask pi code and ps_utility coe nd as well as th json file containig th loctions i wan to lod up ostman. 
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -25,7 +25,6 @@ def get_location_names():
         "location": location_names
     })
     return response
-
 if __name__ == "__main__":
     print("Starting Python Flask...")
     app.run(debug=True)
